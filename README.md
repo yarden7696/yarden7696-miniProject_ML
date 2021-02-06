@@ -7,8 +7,8 @@ This project include 5 learning machine algorithms:
 •	KNN  
 •	Adaboost  
   
-The dataset that we work with is Fake news classification . 
-The information that we used is: 
+The dataset that we work with is Fake news classification.   
+The information that we used is:  
 •	Text of the article without stop words 
 
 ## Conclusion :   
