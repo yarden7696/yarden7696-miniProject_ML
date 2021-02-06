@@ -13,7 +13,7 @@ The information that we used is:
 
 ## Conclusion :   
 We have concluded that we can predict if the article is a real or a fake .  
-The best modle is the random forest . 
+The best modle is the Adaboost . 
   
 ## Sources: 
 https://www.kaggle.com/ruchi798/source-based-news-classification
