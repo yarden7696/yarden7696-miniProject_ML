@@ -1,9 +1,12 @@
+import random
+
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 import numpy as np
+from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 from sklearn.svm import SVC
@@ -47,12 +50,17 @@ def extract_features(df,field,training_data,testing_data,type="binary"):
         return train_feature_set,test_feature_set,tfidf_vectorizer
 
 #read dataset
-df=pd.read_csv('clean_news_articles.csv')
 
+df = pd.read_csv('clean_news_articles.csv')
 avg=0
-for i in range(100):
-# GET A TRAIN TEST SPLIT (set seed for consistent results)
-    training_data, testing_data = train_test_split(df,test_size = 0.25,random_state = 0)
+n=3
+for i in range(n):
+    df.sample(frac=1)
+
+    # GET A TRAIN TEST SPLIT (set seed for consistent results)
+    training_data, testing_data = train_test_split(df,test_size = 0.25,random_state = 42,shuffle=True)
+
+    df['text_without_stopwords'] = str(df['hasImage'])+df['text_without_stopwords']
 
 
     # GET LABELS
@@ -68,10 +76,31 @@ for i in range(100):
     scikit_log_reg = LogisticRegression(verbose=1, solver='liblinear',random_state=0, C=5, penalty='l2',max_iter=1000)
     model=scikit_log_reg.fit(X_train,Y_train) # learning with the features we fount and the train set
 
+
+
+
     ytest = np.array(Y_test)
     print("Result of Logistic Regression Model...")
     # confusion matrix and classification report(precision, recall, F1-score)
     print(classification_report(ytest, model.predict(X_test)))
-    print(confusion_matrix(ytest, model.predict(X_test)))
-    avg+=scikit_log_reg.score(X_train, Y_train)
-print("average accuracy score:  " , avg/100)
+    cm=confusion_matrix(ytest, model.predict(X_test))
+    print(cm)
+    avg+=accuracy_score(Y_test, model.predict(X_test))
+print("average accuracy score:  " , avg/n)
+df.groupby('label').text_without_stopwords.count().plot.bar(ylim=0)
+
+plt.show()
+
+
+
+fig, ax = plt.subplots(figsize=(8, 8))
+ax.imshow(cm)
+ax.grid(False)
+ax.xaxis.set(ticks=(0, 1), ticklabels=('Predicted Fake', 'Predicted Real'))
+ax.yaxis.set(ticks=(0, 1), ticklabels=('Actual Fake', 'Actual Real'))
+ax.set_ylim(1.5, -0.5)
+for i in range(2):
+    for j in range(2):
+        ax.text(j, i, cm[i, j], ha='center', va='center', color='red')
+plt.title('Logistic Regression average score=%s '% (avg/n) )
+plt.show()
