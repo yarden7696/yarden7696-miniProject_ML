@@ -50,3 +50,4 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________    
 ## Sources: 
 https://www.kaggle.com/ruchi798/source-based-news-classification
+https://scipy-lectures.org/packages/scikit-learn/index.html
