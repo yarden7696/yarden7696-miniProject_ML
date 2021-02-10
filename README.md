@@ -31,11 +31,14 @@ The best modle is the Adaboost .
 
 ## OUR RESULST :  
 
+<img src ="https://user-images.githubusercontent.com/57362284/107552548-5223ff00-6bdc-11eb-9ea6-091876d43f63.jpeg" width="350">
+
 ### Adaboost:
-<img src ="https://user-images.githubusercontent.com/57362284/107551349-d4132880-6bda-11eb-94bf-d292ce0b7a0b.jpeg" width="500">
-______________________________________________________________________________________________________________________________
+<img src ="https://user-images.githubusercontent.com/57362284/107551349-d4132880-6bda-11eb-94bf-d292ce0b7a0b.jpeg" width="500">  
+______________________________________________________________________________________________________________________________    
+
 ### KNN:
-<img src ="https://user-images.githubusercontent.com/57362284/107551552-15a3d380-6bdb-11eb-853b-1fc482b42ab9.jpeg" width="500">
+<img src ="https://user-images.githubusercontent.com/57362284/107551552-15a3d380-6bdb-11eb-853b-1fc482b42ab9.jpeg" width="450">
 
 
 
