@@ -42,8 +42,8 @@ ________________________________________________________________________________
 
 
 
-
-
+### RANDOM FOREST:  
+<img src ="https://user-images.githubusercontent.com/57361588/107554134-328dd600-6bde-11eb-9484-fffb29b81313.png" width="500">
 
 ## Sources: 
 https://www.kaggle.com/ruchi798/source-based-news-classification
