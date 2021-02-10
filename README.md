@@ -56,5 +56,5 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________    
 ## Sources: 
 https://www.kaggle.com/ruchi798/source-based-news-classification  
-
 https://scipy-lectures.org/packages/scikit-learn/index.html  
+https://www.kdnuggets.com/2017/04/machine-learning-fake-news-accuracy.html  
