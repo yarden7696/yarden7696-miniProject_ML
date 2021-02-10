@@ -31,7 +31,9 @@ The algorithms that yielded the highest results were Random Forest and Adaboost 
 
 ## OUR RESULST :  
 
-<img src ="https://user-images.githubusercontent.com/57362284/107552548-5223ff00-6bdc-11eb-9ea6-091876d43f63.jpeg" width="350">
+<img src ="https://user-images.githubusercontent.com/57362284/107552548-5223ff00-6bdc-11eb-9ea6-091876d43f63.jpeg" width="350">  
+
+______________________________________________________________________________________________________________________________  
 
 ### Logistic Regression:
 <img src ="https://user-images.githubusercontent.com/57362284/107557175-ef356680-6be1-11eb-84ac-2929bba0babf.jpeg" width="450">
