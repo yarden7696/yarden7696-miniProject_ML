@@ -48,6 +48,12 @@ ________________________________________________________________________________
 <img src ="https://user-images.githubusercontent.com/57361588/107554134-328dd600-6bde-11eb-9484-fffb29b81313.png" width="450">
 
 ______________________________________________________________________________________________________________________________    
+
+
+### SVM :  
+<img src ="https://user-images.githubusercontent.com/57361588/107555220-91a01a80-6bdf-11eb-811a-9679c39b3a2c.png" width="450">
+
+______________________________________________________________________________________________________________________________    
 ## Sources: 
 https://www.kaggle.com/ruchi798/source-based-news-classification
 https://scipy-lectures.org/packages/scikit-learn/index.html
