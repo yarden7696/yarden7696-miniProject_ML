@@ -1,7 +1,7 @@
 # Source based Fake News Classification
-* Authors:
- Cohen Yarden   
- Shalel Shani  
+ ### Authors:  
+ * Cohen Yarden     
+ * Shalel Shani  
  
  
 
@@ -9,12 +9,12 @@
 
 
 ## About the project :
-This project include 5 learning machine algorithms:  
-•	Logistic regreession  
-•	Svm  
-•	Random Forest  
-•	KNN  
-•	Adaboost  
+### This project includes 5 machine learning algorithms -    
+•	Logistic regreession    
+•	Svm    
+•	Random Forest    
+•	KNN    
+•	Adaboost    
   
 The dataset that we work with is Fake news classification.   
 The information that we used is:  
