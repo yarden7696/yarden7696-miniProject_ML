@@ -1,6 +1,7 @@
 # Source based Fake News Classification
-Authors:
-- Cohen Yarden && Shalel Shani
+* Authors:
+- Cohen Yarden 
+- Shalel Shani
 
 
 ## About the project :
