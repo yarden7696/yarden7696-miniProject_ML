@@ -23,7 +23,8 @@
 • The label of the article 'label'      
 
 ## Conclusion :   
- 
+It can be concluded that the classification of article as fake or real is possible and the average of the algorithms that we used is 71% .  
+The algorithms that yielded the highest results were Random Forest and Adaboost while KNN yielded the lowest results.
   
 
 
