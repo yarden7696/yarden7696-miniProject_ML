@@ -10,15 +10,17 @@
 
 ## About the project :
 ### This project includes 5 machine learning algorithms -    
-•	Logistic regreession    
+•	Logistic Regreession    
 •	Svm    
 •	Random Forest    
 •	KNN    
 •	Adaboost    
   
-The dataset that we work with is Fake news classification.   
-The information that we used is:  
-•	Text of the article without stop words 
+  
+### The information we have chosen to use:
+•	The text of the article- 'without stop words'   
+• If the article has image -'hasImage'   
+• The label of the article 'label'      
 
 ## Conclusion :   
 We have concluded that we can predict if the article is a real or a fake .  
