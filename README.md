@@ -1,8 +1,7 @@
 # Source based Fake News Classification
-Authors
-Cohen Yarden && Shalel Shani
+Authors:
+- Cohen Yarden && Shalel Shani
 
-Or Shemesh
 
 ## About the project :
 This project include 5 learning machine algorithms:  
