@@ -32,7 +32,6 @@ The best modle is the Adaboost .
 ## OUR RESULST :  
 
 ### Adaboost:
-![adaboost](https://user-images.githubusercontent.com/57362284/107551349-d4132880-6bda-11eb-94bf-d292ce0b7a0b.jpeg)
 <img src ="https://user-images.githubusercontent.com/57362284/107551349-d4132880-6bda-11eb-94bf-d292ce0b7a0b.jpeg" width="300">
 ______________________________________________________________________________________________________________________________
 ### KNN:
