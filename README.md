@@ -30,6 +30,7 @@ The best modle is the Adaboost .
 
 
 ## OUR RESULST :  
+![diagrams fake real](https://user-images.githubusercontent.com/57362284/107552548-5223ff00-6bdc-11eb-9ea6-091876d43f63.jpeg)
 
 ### Adaboost:
 <img src ="https://user-images.githubusercontent.com/57362284/107551349-d4132880-6bda-11eb-94bf-d292ce0b7a0b.jpeg" width="300">
