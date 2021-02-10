@@ -28,3 +28,12 @@ The best modle is the Adaboost .
   
 ## Sources: 
 https://www.kaggle.com/ruchi798/source-based-news-classification
+
+
+## OUR RESULST :  
+
+### Adaboost:
+![adaboost](https://user-images.githubusercontent.com/57362284/107551349-d4132880-6bda-11eb-94bf-d292ce0b7a0b.jpeg)
+
+### KNN:
+![knn](https://user-images.githubusercontent.com/57362284/107551552-15a3d380-6bdb-11eb-853b-1fc482b42ab9.jpeg)
