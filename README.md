@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 
 ### KNN:
-with CountVectorizer and with TD-IDF:  
+With CountVectorizer and with TD-IDF:  
 <img src ="https://user-images.githubusercontent.com/57361588/108371608-97f94c80-7206-11eb-870b-7ff44cb79db2.png" width="450" >  <img src ="https://user-images.githubusercontent.com/57362284/107556534-34a56400-6be1-11eb-8f36-ac9e47a06e4b.jpeg" width="450">
 __________________________________________________________________________________________________________________________      
 
@@ -59,7 +59,8 @@ ________________________________________________________________________________
 
 
 ### SVM :  
-<img src ="https://user-images.githubusercontent.com/57361588/107555220-91a01a80-6bdf-11eb-811a-9679c39b3a2c.png" width="450">
+With CountVectorizer and with TD-IDF:  
+<img src ="https://user-images.githubusercontent.com/57361588/107555220-91a01a80-6bdf-11eb-811a-9679c39b3a2c.png" width="450"> <img src ="https://user-images.githubusercontent.com/57361588/108376020-34bde900-720b-11eb-83a5-57d7fd9a4465.png" width="450">
 
 ______________________________________________________________________________________________________________________________    
 ## Sources: 
