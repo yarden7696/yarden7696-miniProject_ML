@@ -67,3 +67,4 @@ ________________________________________________________________________________
 https://www.kaggle.com/ruchi798/source-based-news-classification  
 https://scipy-lectures.org/packages/scikit-learn/index.html  
 https://www.kdnuggets.com/2017/04/machine-learning-fake-news-accuracy.html  
+https://towardsdatascience.com/text-classification-using-k-nearest-neighbors-46fa8a77acc5  
