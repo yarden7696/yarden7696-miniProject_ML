@@ -59,7 +59,7 @@ ________________________________________________________________________________
 
 
 ### SVM :  
-With CountVectorizer and with TD-IDF:  
+With CountVectorizer                                                                   with TD-IDF:  
 <img src ="https://user-images.githubusercontent.com/57361588/107555220-91a01a80-6bdf-11eb-811a-9679c39b3a2c.png" width="450"> <img src ="https://user-images.githubusercontent.com/57361588/108376020-34bde900-720b-11eb-83a5-57d7fd9a4465.png" width="450">
 
 ______________________________________________________________________________________________________________________________    
